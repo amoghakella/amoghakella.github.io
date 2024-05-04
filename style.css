@@ -1,1 +1,11 @@
+@import url(//brick.a.ssl.fastly.net/Raleway:200,300/Merriweather:200,200i,700,700i/Lato:400,700);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Raleway, Lato, Roboto, 'Segoe UI', 'Lucida Grande', 'DejaVu Sans', sans-serif;
+}
 
