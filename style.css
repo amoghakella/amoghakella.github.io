@@ -77,6 +77,7 @@ h6, #navigation_box a, #header h1, .bbcode_quote_head, #user-menu-widget .userna
 .cmty-posting-environ .cmty-posting-box-container::before, .cmty-posting-subject-line .cmty-subject-input, .cmty-tags-line .cmty-items-input, .aops-modal-title, #message {
   /* Source for %heading */
   font-family: Raleway, Lato, Roboto, 'Segoe UI', 'Lucida Grande', 'DejaVu Sans', sans-serif;
+  text-align: center;
 }
 
 /* Import font for modals */
