@@ -28,6 +28,7 @@ p {
 }
 
 ul {
+  font-family: Raleway;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,14 +37,16 @@ ul {
 }
 
 li {
+  font-family: Raleway;
   float: left;
 }
 
 li a {
+  font-family: Raleway;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 30px;
   text-decoration: none;
 }
 
