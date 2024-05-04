@@ -12,6 +12,11 @@ p {
 
 body {
   background-color: lightblue;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  margin: auto;
+  width: 35%;
 }
 
 h1 {
