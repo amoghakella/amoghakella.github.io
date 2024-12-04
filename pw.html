@@ -20,7 +20,18 @@
       <h2>Favorites</h2>
       <ol>
         <li>inteGIRLS Spring 2023 HS Indiv/30</li>
+        <li>inteGIRLS Spring 2024 HS Team/12</li>
+        <li>inteGIRLS Spring 2024 HS Team/15</li>
         <li>2024 OTIS Mock AIME/8</li>
+        <li>2025 OTIS Mock AIME Proposal: Let $E$ be the ellipse in the complex plane formed by the equation $\frac{\text{Re}(x)}{a^2} + \frac{\text{Im}(x)}{b^2} = 1$. An angle $\theta$ is chosen uniformly at random in $[0, 360)$, and  a complex number $x$ on $E$ is chosen with argument $\theta$. Given that the foci of $E$ are $F_1$ and $F_2$, compute the expected value of $|x - F_1||x - F_2|$. </li>
+        <li>2025 OTIS Mock AIME Proposal: A triangle $T$ has circumradius $38$, inradius $16$, circumcenter $O$, incenter $I$, and orthocenter $H$. Given that $OH = 28$, compute $HI^2$. </li>
+        <li>Let $ABC$ be a triangle with incenter $I$ and circumcenter $O$. Let $D$ be the foot of the perpendicular from $A$ to $BC$. The circle $(AID)$ intersects line $BC$ at $X$ and line $AO$ at $Y$. Segment $XY$ intersects the circumcircle of $ABC$ at point $Z$. Show that $AI = AZ$. </li>
+      </ol>
+      <p>The last three problems on this list don't have solutions online (as far as I know), so here are short sketches for them: </p>
+      <ol>
+        <li>The main idea is that $|x - F_1| + |x - F_2|$ is a fixed quantity, and we can actually write everything in terms of $|X|^2$. To compute the expected value of this, we use the polar area integral formula. The final answer should be $a^2 - ab + b^2$. </li>
+        <li>Let $N_9$ be the nine-point center and observe that $N_9I = \frac{R}{2} - r$ because the incircle and the nine-point circle are tangent at the Feuerbach point. Additionally, $ON_9 = 14$, and $OI^2 = R(R - 2r) = 228$ by Euclid's inequality. Because we know the three side lengths of the triangle $OIN_9$, we can easily compute the value of $IH^2$ to be $182$. </li>
+        <li>To solve this problem most easily, let $C_1$ denote the circle through $I$ centered at $A$ and let $C_2$ denote the circle through $B$, $I$, and $C$. Radical axis on these two circles and the circumcircle finishes pretty easily. </li>
       </ol>
     </main>
   </body>
