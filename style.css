@@ -40,6 +40,10 @@ li {
   font-family: Raleway;
 }
 
+.menu {
+  float: left;
+}
+
 li a {
   font-family: Raleway;
   display: block;
