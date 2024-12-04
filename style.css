@@ -38,10 +38,12 @@ ul {
 
 li {
   font-family: Raleway;
+  font-size: 20px;
 }
 
 .menu {
   float: left;
+  font-size: 16px;
 }
 
 li a {
